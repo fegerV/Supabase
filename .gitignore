@@ -1,0 +1,59 @@
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Docker volumes and data
+*_data/
+postgres_data/
+supabase_postgres_data/
+n8n_postgres_data/
+volumes/
+
+# Logs
+*.log
+logs/
+/var/log
+
+# Backups
+backups/
+*.sql
+*.sql.gz
+*.dump
+*.tar.gz
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Node modules
+node_modules/
+package-lock.json
+yarn.lock
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# OS
+.DS_Store
+Thumbs.db
+.env~
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+
+# Application specific
+n8n_data/
+supabase_data/
+
+# CI/CD
+.github/workflows/secrets.yml
+.gitlab-ci-secrets.yml
