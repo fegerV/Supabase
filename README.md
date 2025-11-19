@@ -19,7 +19,7 @@
 
 ```bash
 # 1. Клонируйте репозиторий
-git clone <repository>
+git clone https://github.com/fegerV/Supabase
 cd <project>
 
 # 2. Подготовьте окружение
